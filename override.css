@@ -1,0 +1,37 @@
+/* Post List */
+
+.gh-list-row {
+  direction: rtl;
+}
+
+/* Editor */
+
+.gh-koenig-editor-pane {
+  direction: rtl;
+  text-align: right;
+}
+
+[data-kg="plus-menu"] {
+  position: absolute !important;
+  left: auto !important;
+  right: 0;
+}
+
+.koenig-plus-menu-button {
+  margin: -2px -66px 0 0 !important;
+}
+
+.koenig-cardmenu {
+  right: -16px;
+  left: auto;
+  direction: ltr;
+  text-align: left;
+}
+
+.__mobiledoc-card {
+  direction: ltr;
+}
+
+[data-gallery] {
+  direction: rtl;
+}

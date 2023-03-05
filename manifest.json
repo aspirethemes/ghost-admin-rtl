@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Ghost Admin RTL",
+  "version": "1.0.0",
+
+  "description": "Ghost Admin Editor Right to Left (RTL) Support",
+  "short_name": "Ghost Editor RTL",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/ghost*", "http://*/ghost*"],
+      "css": ["override.css"]
+    }
+  ],
+
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}
